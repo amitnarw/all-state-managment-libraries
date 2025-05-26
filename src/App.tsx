@@ -4,7 +4,7 @@ import UseReducerHook from "./components/UseReducerHook";
 import RTKLibrary from "./components/RTKLibrary";
 import store from "./store/store";
 import ZustandLibrary from "./components/ZustandLibrary";
-import Products from "./components/Products";
+import SupabaseProducts from "./components/SupabaseProducts";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <RTKLibrary />
       </Provider>
       <ZustandLibrary /> */}
-      <Products />
+      <SupabaseProducts />
     </div>
   );
 }
